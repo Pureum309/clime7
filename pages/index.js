@@ -8,6 +8,7 @@ import Background from '@/components/background';
 export default function Home() {
   
   const apiKey= process.env.NEXT_PUBLIC_apiKey
+  // const apiKey = "4a43ea57a8d3e41207d9f4129302ff6c"
   const location = "vancouver"
   const units = "metric"
 
