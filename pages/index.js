@@ -145,7 +145,7 @@ export default function Home() {
           <div className={styles.center}>
             <Image
               className={styles.logo}
-              src="/logo.png"
+              src="/icons/logo.png"
               alt="Logo"
               width={400}
               height={120}
