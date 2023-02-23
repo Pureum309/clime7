@@ -20,7 +20,7 @@ Open http://localhost:3000 with your browser to see the result.
 You can start editing the page by modifying pages/index.js. The page auto-updates as you edit the file.
 
 ## Description
-This website provides NASA's Earth polychromatic imaging camera (EPIC) and some pictures from NASA. This website provides EPIC images of the entire sunlit face of Earth at least once every two hours from 1 million miles away. If you click on the view button, it will show the latitude and longitude of Earth's surface. 
+The Clime7 gives a 6-day forecast weather website that displays weather information for the next six days. It includes the current temperature, date and month, and a brief description of the weather conditions for each day.
 
 ## Tools / Technologies Used
 - API used:
