@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import { useEffect, useRef, useState } from 'react'
 import axios from 'axios';
+import Background from '@/components/background';
 
 export default function Home() {
   
@@ -122,38 +123,40 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icons/favi.png" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Vancouver, B.C. Weather : <br/>
-            Last Updates: {date}
-          </p>
-          <div>
-            <a
-              href="https://pureumsun.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              Sarah
-            </a>
-          </div>
-        </div>
+      <Background>
+        <main className={styles.main}>
+          <div className={styles.description}>
+            <p>
+              Vancouver, B.C. Weather : <br/>
+              Last Updates: {date}
+            </p>
+            <div>
+              <a
+                href="https://pureumsun.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                By{' '}
+                Sarah
+              </a>
+            </div>
+          </div>
 
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/logo.png"
-            alt="Logo"
-            width={400}
-            height={120}
-            priority
-          />     
-        </div>
-        <div className={styles.weatherCard}>
-          {data}
-        </div>
-      </main>
+          <div className={styles.center}>
+            <Image
+              className={styles.logo}
+              src="/logo.png"
+              alt="Logo"
+              width={400}
+              height={120}
+              priority
+            />     
+          </div>
+          <div className={styles.weatherCard}>
+            {data}
+          </div>
+        </main>
+      </Background>
     </>
   )
 }
