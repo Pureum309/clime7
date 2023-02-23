@@ -7,6 +7,13 @@
   justify-content: center;
   font-family: 'Poppins', sans-serif;
 }
+/* Styles for the logo section */
+.center {
+  backdrop-filter: blur(-1000px);
+}
+.logo {
+  backdrop-filter: blur(-1000px);
+}
 
 /* Styles for the description section */
 .description {
@@ -17,7 +24,6 @@
 }
 
 .description a {
-  color: #333;
   text-decoration: none;
 }
 .description a:hover {

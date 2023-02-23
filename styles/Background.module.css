@@ -2,7 +2,7 @@
 .background {
     height: 100vh;
   /*   background: #002766; */
-    background: radial-gradient(50% 100%, #011F53 45%, #002766 100%);
+    background: radial-gradient(50% 100%, #1A3C76 45%, #002766 100%);
     overflow: hidden;
 }
 
